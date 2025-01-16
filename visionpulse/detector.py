@@ -39,3 +39,4 @@ class ObjectDetector:
         scores = np.array([0.9, 0.85])
         keep = self.non_max_suppression(boxes, scores, 0.45)
         return boxes[keep], scores[keep]
+\n# Maintenance log 0
